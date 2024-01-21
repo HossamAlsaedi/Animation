@@ -21,6 +21,39 @@ html {
     scroll-behavior: smooth;
 }
 
+.scrollProgress {
+    height: 3px;
+    width: 0;
+    background-color: red;
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: none;
+}
+
+.scrollTop {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+}
+
+.scrollTop:hover {
+    background-color: black;
+    color: white;
+}
+
 ul {
     list-style: none;
 }
@@ -117,6 +150,9 @@ a {
 @media (min-width: 992px) {
     .container {
         width: 970px;
+    }
+    .scrollProgress {
+        display: block;
     }
 }
 
@@ -1008,6 +1044,7 @@ header .mega-menu .links li a i {
     top: 0;
     height: 100%;
     background-color: var(--main-color);
+    transition: 1s;
 }
 /*end skills*/
 
