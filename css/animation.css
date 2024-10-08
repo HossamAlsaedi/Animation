@@ -1273,6 +1273,9 @@ header .mega-menu .links li a i {
 }
 
 @media (max-width: 768px) {
+    .event .timer {
+        gap: 10px
+    }
     .event .subs form {
         max-width: 100%;
         padding: 20px;
