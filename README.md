@@ -1,5 +1,5 @@
 # template-three
 
-##Responsive design
+## Responsive design
 
 ## Hover Animations on Cards and Progress Loading Upon Scroll
