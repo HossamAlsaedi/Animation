@@ -12,13 +12,15 @@
     <title>Animation</title>
 </head>
 <body>
+    <div class="scrollProgress"></div>
+    <div class="scrollTop"><i class="fa-solid fa-arrow-up"></i></div>
     <header>
         <div class="container">
             <a href="#" class="logo">Animation</a>
             <ul class="main-nav">
-                <li><a href="#">Article</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Features</a></li>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#features">Features</a></li>
                 <li>
                     <a href="#">Other links</a>
                     <div class="mega-menu">
@@ -27,44 +29,44 @@
                         </div>
                         <ul class="links">
                             <li>
-                                <a href="#"><i class="far fa-comments fa-fw"></i> Testimonials</a>
+                                <a href="#testimonials"><i class="far fa-comments fa-fw"></i> Testimonials</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="far fa-check-circle fa-fw"></i> Team Members</a>
+                                <a href="#team-members"><i class="far fa-check-circle fa-fw"></i> Team Members</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="far fa-clipboard fa-fw"></i>Services</a>
+                                <a href="#services"><i class="far fa-clipboard fa-fw"></i>Services</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="far fa-user fa-fw"></i> Our Skills</a>
+                                <a href="#skills"><i class="far fa-user fa-fw"></i> Our Skills</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="far fa-building fa-fw"></i> How It Works</a>
+                                <a href="#work"><i class="far fa-building fa-fw"></i> How It Works</a>
                             </li>
                         </ul>
                         <ul class="links">
                             <li>
-                                <a href="#"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
+                                <a href="#event"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
+                                <a href="#price"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
+                                <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
+                                <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
                             </li>
 
                             <li>
-                                <a href="#"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
+                                <a href="#discount"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
                             </li>
 
                         </ul>
@@ -91,7 +93,7 @@
         </a>
     </div>
     <!-- Articles -->
-    <div class="article">
+    <div class="article" id="article">
         <h2 class="main-title">Article</h2>
         <div class="container">
             <div class="card">
@@ -202,7 +204,7 @@
     </div>
     <div class="spikes"></div>
     <!-- gallery -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <h2 class="main-title">Gallery</h2>
         <div class="container">
             <div class="box">
@@ -238,7 +240,7 @@
         </div>
     </div>
     <!-- features -->
-    <div class="features">
+    <div class="features" id="features">
         <h2 class="main-title">Features</h2>
         <div class="container">
             <div class="card quality">
@@ -268,7 +270,7 @@
         </div>
     </div>
     <!-- testimonials -->
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
         <h2 class="main-title">testimonials</h2>
         <div class="container">
             <div class="box">
@@ -364,7 +366,7 @@
         </div>
     </div>
     <!-- team members -->
-    <div class="team-members">
+    <div class="team-members" id="team-members">
         <h2 class="main-title">team members</h2>
         <div class="container">
             <div class="card">
@@ -492,7 +494,7 @@
     </div>
     <div class="spikes"></div>
     <!-- services -->
-    <div class="services">
+    <div class="services" id="services">
         <h2 class="main-title">Services</h2>
         <div class="container">
             <div class="box">
@@ -558,48 +560,48 @@
         </div>
     </div>
     <!-- our skills -->
-    <div class="skills">
+    <div class="skills" id="skills">
         <h2 class="main-title">Our Skills</h2>
         <div class="container">
             <img src="../images/Animation/skills.png" alt="">
             <div class="progress">
             <div class="progress-data">
                 <div class="skill-bar">
-                    <h3>HTML <span>90%</span></h3>
+                    <h3>HTML <span id="html-rate">80%</span></h3>
                 </div>
                 <div class="bar">
-                    <span style="width: 90%;"></span>
+                    <span id="html-bar"></span>
                 </div>
             </div>
             <div class="progress-data">
                 <div class="skill-bar">
-                    <h3>CSS <span>85%</span></h3>
+                    <h3>CSS <span id="css-rate">85%</span></h3>
                 </div>
                 <div class="bar">
-                    <span style="width: 85%;"></span>
+                    <span id="css-bar"></span>
                 </div>
             </div>
             <div class="progress-data">
                 <div class="skill-bar">
-                    <h3>JS <span>65%</span></h3>
+                    <h3>JS <span id="JS-rate">75%</span></h3>
                 </div>
                 <div class="bar">
-                    <span style="width: 65%;"></span>
+                    <span id="JS-bar"></span>
                 </div>
             </div>
             <div class="progress-data">
                 <div class="skill-bar">
-                    <h3>Python <span>70%</span></h3>
+                    <h3>Python <span id="python-rate">50%</span></h3>
                 </div>
                 <div class="bar">
-                    <span style="width: 70%;"></span>
+                    <span id="python-bar"></span>
                 </div>
             </div> 
           </div>
         </div>
     </div>
     <!-- how it works -->
-    <div class="work">
+    <div class="work" id="work">
         <h2 class="main-title">How it Works</h2>
         <div class="container">
             <img src="../images/Animation/work-steps.png" alt="">
@@ -635,7 +637,7 @@
         </div>
     </div>
     <!-- events -->
-    <div class="event">
+    <div class="event" id="event">
         <div class="dots dots-up"></div>
         <div class="dots dots-down"></div>
         <h2 class="main-title">Events</h2>
@@ -644,24 +646,24 @@
             <div class="info">
                 <div class="timer">
                     <div class="number">
-                        <span>08</span>
+                        <span class="days">00</span>
                         <span>Days</span>
                     </div>
                     <div class="number">
-                        <span>13</span>
+                        <span class="hours">00</span>
                         <span>Hours</span>
                     </div>
                     <div class="number">
-                        <span>30</span>
+                        <span class="min">00</span>
                         <span>Minutes</span>
                     </div>
                     <div class="number">
-                        <span>17</span>
+                        <span class="sec">00</span>
                         <span>Seconds</span>
                     </div>
                 </div>
                 <div class="description">
-                    <h2>Tech Masters Event 2030</h2>
+                    <h2>Tech Masters Event 2025</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit pariatur voluptatem vel quos doloribus sint labore, cumque minus possimus quisquam?
                     </p>
@@ -676,7 +678,7 @@
         </div>
     </div>
     <!-- pricing -->
-    <div class="price">
+    <div class="price" id="price">
         <div class="dots dots-up"></div>
         <div class="dots dots-down"></div>
         <h2 class="main-title">product plans</h2>
@@ -733,7 +735,7 @@
         </div>
     </div>
     <!-- video -->
-    <div class="video">
+    <div class="video" id="video">
         <h2 class="main-title">Top Videos</h2>
         <div class="container">
             <div class="holder">
@@ -760,35 +762,35 @@
         </div>
     </div>
     <!-- stats -->
-    <div class="stats">
+    <div class="stats" id="stats">
         <div class="title">
             <h2>Our Awesome Stats</h2>
         </div>
         <div class="container">
             <div class="box">
                 <i class="far fa-user fa-2x fa-fw"></i>
-                <h3>150</h3>
+                <h3 id="stats-number" data-stats="150">0</h3>
                 <p>Client</p>
             </div>
             <div class="box">
                 <i class="fas fa-code fa-2x fa-fw"></i>
-                <h3>135</h3>
+                <h3 id="stats-number" data-stats="275">0</h3>
                 <p>Projects</p>
             </div>
             <div class="box">
                 <i class="fas fa-globe-asia fa-2x fa-fw"></i>
-                <h3>50</h3>
+                <h3 id="stats-number" data-stats="50">0</h3>
                 <p>Countries</p>
             </div>
             <div class="box">
                 <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
-                <h3>500</h3>
+                <h3 id="stats-number" data-stats="350">0</h3>
                 <p>Money</p>
             </div>
         </div>
     </div>
     <!-- discounts -->
-    <div class="discount">
+    <div class="discount" id="discount">
         <div class="image">
             <div class="content">
                 <h2>We Have A discount</h2>
@@ -869,4 +871,5 @@
         <div class="copyright">Copyrights</div>
     </footer>
 </body>
+<script src="../javaScript/animation.js"></script>
 </html>
